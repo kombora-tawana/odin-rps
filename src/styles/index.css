@@ -1,0 +1,31 @@
+main {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.choices,
+.feedback {
+    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.choices > .ctrl {
+    /* flex: 1 1 auto; */
+    padding: 10px;
+    width: 150px;
+}
+
+.feedback > div {
+    flex: 1 1 auto;
+    padding: 10px;
+    width: 50%;
+}
+
+.playagain {
+    width: 100%;
+    padding: 10px;
+}

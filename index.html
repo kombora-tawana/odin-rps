@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" initial-scale="1" />
+        <title>RPS</title>
+        <link rel="stylesheet" href="src/styles/index.css" />
+        <script type="module" src="src/scripts/game.js" defer></script>
+        <script type="module" src="src/scripts/instructions.js" defer></script>
+    </head>
+
+    <body>
+        <main>
+            <h1 class="greeting">Hello Gamer!</h1>
+            <div class="instructions"></div>
+            <button class="playagain">play again</button>
+            <section class="choices">
+                <button class="ctrl">rock</button>
+                <button class="ctrl">paper</button>
+                <button class="ctrl">scissors</button>
+            </section>
+            <section class="feedback">
+                <div>
+                    <h2>Play Log</h2>
+                    <div class="playlog"></div>
+                </div>
+                <div>
+                    <h2>Scores</h2>
+                    <div class="scores"></div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
